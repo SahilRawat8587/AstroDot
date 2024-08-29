@@ -1,0 +1,29 @@
+.blogg-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.blogcategory-container{
+    display: flex;
+    width: 100vw;
+
+}
+.blog-heading{
+    color: #ffffff;
+    font-size: 1.5rem;
+    width:100vw;
+    text-align: center;
+    padding: 5vw 30vw;
+    background-color: #FFB30E;
+}
+.sidebar {
+    width: 20vw;
+    flex-shrink: 0;
+  }
+  
+  .card-list {
+    flex-grow: 1;
+    padding: 20px;
+  }

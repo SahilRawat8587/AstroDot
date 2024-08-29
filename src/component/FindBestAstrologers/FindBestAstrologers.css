@@ -1,0 +1,114 @@
+/* General Styles */
+.astrologers-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+    background: linear-gradient(to bottom right, #ffedd5, #ffd4a3);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .astrologers-container h2 {
+    font-size: 36px;
+    color: #f97316;
+    margin-bottom: 40px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Lists Container */
+  .lists-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  /* Individual Lists */
+  .list {
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .list:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .list h3 {
+    font-size: 24px;
+    color: #2b2b2b;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .list ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+  }
+  
+  .list ul li {
+    font-size: 16px;
+    color: #4b4b4b;
+    margin-bottom: 10px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .list ul li:before {
+    content: "✔️";
+    color: #9f7aea;
+    margin-right: 10px;
+  }
+  
+  /* Category Wise Specific */
+  .category-wise {
+    background: #f97316;
+    color: white;
+    position: relative;
+  }
+  
+  .category-wise ul li:before {
+    color: #ffffff;
+  }
+  
+  .category-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .popular-tag {
+    background: #ffffff;
+    color: #f97316;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 12px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .lists-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .list {
+      width: 80%;
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .astrologers-container h2 {
+      font-size: 28px;
+    }
+  
+    .list h3 {
+      font-size: 20px;
+    }
+  }
+  

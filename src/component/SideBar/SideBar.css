@@ -1,0 +1,25 @@
+.sidebar {
+  /* width: 20vw; */
+
+    background-color: #FFB30E;
+    padding: 20px 0;
+    
+  }
+    
+  .sidebar button {
+    display: block;
+    margin-bottom: 10px;;
+    padding: 10px 30px ;
+    cursor: pointer;
+    color: #ffffff;
+    border: 0px;
+    background-color: #FFB30E;
+    width:20vw;
+    text-align: left;
+  }
+  
+  .sidebar button:hover {
+    background-color: #ffffff;
+    color:#FFB30E;
+  }
+  

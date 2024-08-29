@@ -1,0 +1,28 @@
+.cta-container{
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    padding: 5vw 30vw;
+    background-color: #FFB30E;
+}
+
+.cta-container h3{
+    color: #ffffff;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 500;
+}
+.cta-button{
+    color: #ffffff;
+    background-color: #F15E28;
+    padding: 15px 30px; 
+    border: 0px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.cta-button:hover {
+    background: #d35400;
+  }

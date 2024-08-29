@@ -1,0 +1,34 @@
+.why-astrology{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 4vw 10vw;
+    padding: 4vw;
+    border-radius: 10px;
+    align-items: center;
+    /* border: 1px solid ; */
+    box-shadow: #AEAEAE 0px 4px 4px 0px, #F5F5F5 0px 27px 82px 0px;
+}
+
+.why-astrology h3{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.astro-container span{
+    color: #F17228;
+}
+
+.astro-container p{
+    margin: 10px 20px 0px 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.que{
+    margin: 0px 20px 0px 20px;
+    font-weight: 500;
+}
+
+.ans{margin: 0px 20px 10px 20px;
+color: #323232;}

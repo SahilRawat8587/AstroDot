@@ -1,0 +1,182 @@
+.astrologer-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+  }
+  
+  .profile-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 24px;
+  }
+  
+  .bottom-section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .chat-with-assistant {
+    margin-top: 24px;
+  }
+  
+  .chat-with-assistant button {
+    background: #f39c12;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 12px 24px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .chat-with-assistant button:hover {
+    background: #d35400;
+  }
+  
+  /* About Section */
+  .about-section {
+    background: white;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 16px;
+    width: 30%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-section h2 {
+    margin-bottom: 16px;
+    color: #e74c3c;
+  }
+  
+  .about-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about-section li {
+    margin-bottom: 8px;
+    font-size: 1.1em;
+    display: flex;
+    align-items: center;
+  }
+  
+  .about-section li span {
+    margin-right: 8px;
+  }
+
+  /* MainInfo */
+
+  .main-info-section {
+    background: white;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 16px;
+    width: 60%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .main-info-section .astrologer-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #ccc;
+    margin-bottom: 16px;
+  }
+  
+  .main-info-section h2 {
+    margin-bottom: 16px;
+    color: #e74c3c;
+  }
+  
+  .main-info-section p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #555;
+  }
+
+  /* Review */
+  .reviews-section {
+    background: white;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 16px;
+    width: 45%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .review {
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .review h4 {
+    margin-bottom: 4px;
+    font-size: 1.2em;
+  }
+  
+  .review p {
+    margin-bottom: 4px;
+    color: #777;
+  }
+  
+  .review .rating {
+    font-size: 1.2em;
+    color: #f39c12;
+  }
+
+  
+  /* Rating */
+
+  .rating-section {
+    background: white;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 16px;
+    width: 45%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .overall-rating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .overall-rating h1 {
+    margin-right: 16px;
+    font-size: 2.5em;
+    color: #e74c3c;
+  }
+  
+  .stars {
+    color: #f39c12;
+    font-size: 1.5em;
+  }
+  
+  .rating-breakdown {
+    margin-top: 16px;
+  }
+  
+  .rating-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .rating-bar span {
+    width: 30px;
+  }
+  
+  .bar {
+    background: #ccc;
+    height: 8px;
+    border-radius: 4px;
+  }
+  

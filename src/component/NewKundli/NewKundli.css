@@ -1,0 +1,80 @@
+.nkundli-container {
+    text-align: center;
+    margin: 0 auto;
+    padding: 2vw 0 8vw 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient( #ffcc66, #ffffff);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.nkundli-container h1 {
+    color: #f89c1c;
+    font-size: 2.5rem;
+}
+
+.nkundli-container p {
+    color: #cc7a00;
+    margin-bottom: 30px;
+    font-size: 1rem;
+}
+
+.nform-container {
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+   
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+    text-align: justify;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+.birth-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.birth-details > div {
+    flex: 1 1 calc(33.333% - 10px);
+    min-width: 90px;
+}
+
+button[type="submit"] {
+    background-color: #f89c1c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #cc7a00;
+}

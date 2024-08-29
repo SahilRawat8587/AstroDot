@@ -1,0 +1,68 @@
+.header {
+    height: 50vw;
+    margin: auto;
+    background: url(../../assets/Header_bg.jpg) repeat-x;
+    background-size: contain;
+    position: relative;
+  }
+  
+  .header-contents {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2vw;
+    max-width: 50%;
+    left: 10%;
+    bottom: 30%;
+    animation: fadeIn 3s;
+  }
+  
+  .header-contents h2 {
+    font-weight: 750;
+    color: white;
+    font-size: max(4.5vw, 22px);
+  }
+  
+  .header-contents p {
+    color: #504f4f;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5vw;
+  }
+  
+  .Light,
+  .Dark {
+    border: None;
+    font-weight: 400;
+    padding: 1vw 5vw;
+    font-size: max(1vw, 10px);
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  
+  .Dark {
+    color: #ffffff;
+    background-color: #f17228;
+  }
+
+  .Dark:hover{
+    color: #ffffff;
+    background: transparent;
+    border: 2px solid #f17228;
+  }
+  
+  .Light {
+    color: #ffffff;
+    background: transparent;
+    border: 2px solid #f17228;
+  }
+
+  .Light:hover{
+    color: #ffffff;
+    background-color: #f17228;
+  }
+  

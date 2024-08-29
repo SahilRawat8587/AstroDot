@@ -1,0 +1,34 @@
+.kcta-container{
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    padding: 5vw 20vw;
+    background-color: #FFB30E;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.kcta-container h3{
+    color: #ffffff;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 500;
+}
+.kcta-button{
+    color: #ffffff;
+    background-color: #F15E28;
+    padding: 15px 30px; 
+    border: 0px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.kcta-button:hover {
+    background: #d35400;
+  }
